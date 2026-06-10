@@ -8,7 +8,7 @@ import requests
 
 
 st.set_page_config(
-    page_title="Semantic Movie Recommender",
+    page_title="MoodWatch",
     page_icon="🎬",
     layout="wide"
 )
@@ -120,12 +120,12 @@ if 'keywords_aktif' not in st.session_state:
 
 
 
-st.title("🎬 Semantic Movie Recommender")
+st.title("🎬 MoodWatch")
 st.markdown("### Can't decide what to watch today? Just share your thoughts!")
 
 with st.expander("🤔 What is this & How does it work?", expanded=True):
     st.write("""
-    Welcome to the **Semantic Movie Recommender**! 
+    Welcome to the **MoodWatch**! 
     This system uses a *Large Language Model* (LLM) to understand your abstract movie preferences 
     and matches them against a database of 4,800+ movies using two different retrieval algorithms.
     
